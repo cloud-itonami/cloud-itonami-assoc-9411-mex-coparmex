@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "coparmex.founding-1929"
+                     :title "COPARMEX (Confederación Patronal de la República Mexicana) founded in Mexico City on 26 September 1929 (coparmex.org.mx official 'Nuestra Historia' page)"
+                     :association "coparmex"
+                     :isic "9411"
+                     :country "MEX"
+                     :kind :governance-program
+                     :url "https://coparmex.org.mx/nuestra-historia/"
+                     :url-provenance :official-coparmex-org-mx
+                     :established-date "1929-09-26"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "coparmex.electoral-observer-1989"
+                     :title "COPARMEX begins work as an electoral observer ('Coparmex inicia trabajos como observador electoral'), 1989 (coparmex.org.mx official 'Nuestra Historia' page)"
+                     :association "coparmex"
+                     :isic "9411"
+                     :country "MEX"
+                     :kind :governance-program
+                     :url "https://coparmex.org.mx/nuestra-historia/"
+                     :url-provenance :official-coparmex-org-mx
+                     :established-date "1989"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]
